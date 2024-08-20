@@ -913,6 +913,7 @@ class Map extends React.Component {
           {isInfo ? (
             <React.Fragment>
               <div>
+                <div>Longitude,Latitude</div>
                 <Button.Group basic size="tiny">
                   <Popup
                     size="tiny"
@@ -941,7 +942,8 @@ class Map extends React.Component {
                 </Button.Group>
               </div>
 
-              <div className="mt1 flex">
+              <div className="mt1">
+                <div>Latitude,Longitude</div>
                 <Button.Group basic size="tiny">
                   <Popup
                     size="tiny"
@@ -969,7 +971,8 @@ class Map extends React.Component {
                   </CopyToClipboard>
                 </Button.Group>
               </div>
-              <div className="mt1 flex">
+              <div className="mt1">
+                <div>Geolocation</div>
                 <Button.Group basic size="tiny">
                   <Popup
                     size="tiny"
@@ -1001,6 +1004,7 @@ class Map extends React.Component {
               </div>
 
               <div className="mt1">
+                <div>Locate via API call</div>
                 <Button.Group basic size="tiny">
                   <Popup
                     size="tiny"
@@ -1028,6 +1032,7 @@ class Map extends React.Component {
                 </Button.Group>
               </div>
               <div className="mt1">
+                <div>Valhalla Location JSON</div>
                 <Button.Group basic size="tiny">
                   <Popup
                     size="tiny"
@@ -1051,7 +1056,8 @@ class Map extends React.Component {
                   </CopyToClipboard>
                 </Button.Group>
               </div>
-              <div className="mt1 flex justify-between">
+              <div className="mt1">
+                <div>Elevation at this point</div>
                 <Popup
                   size="tiny"
                   content="Elevation at this point"
